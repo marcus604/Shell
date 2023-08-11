@@ -7,6 +7,9 @@ alias syncAliases='sudo curl -sL "https://raw.githubusercontent.com/marcus604/Sh
 
 ### ZSH ###
 alias ls='ls -l'
+alias cp='cp -iv'
+alias mv='mv -iv'
+alias mkdir='mkdir -pv'
 
 ### Git ###
 git config --global alias.st 'status'
