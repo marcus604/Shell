@@ -1,9 +1,9 @@
 ### Profile Control ###
 alias showProfile='cat ~/.zshrc'
 alias updateProfile='sudo vi ~/.zshrc; source ~/.zshrc'
-alias aliasesshow='cat ~/.aliases'
-alias aliasesupdate='sudo vi ~/.aliases; source ~/.zshrc'
-alias aliasessync='sudo curl -sL "https://raw.githubusercontent.com/marcus604/Shell/main/aliases" > ~/.aliases; source ~/.zshrc'
+alias showAliases='cat ~/.aliases'
+alias updateAliases='sudo vi ~/.aliases; source ~/.zshrc'
+alias syncAliases='sudo curl -sL "https://raw.githubusercontent.com/marcus604/Shell/main/aliases" > ~/.aliases; source ~/.zshrc'
 
 ### ZSH ###
 alias ls='ls -l'
