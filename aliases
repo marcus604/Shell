@@ -11,4 +11,5 @@ alias ls='ls -l'
 ### Git ###
 git config --global alias.st 'status'
 git config --global alias.cm 'commit -m'
+git config --global alias.d 'diff'
 
