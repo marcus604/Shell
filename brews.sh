@@ -1,3 +1,4 @@
+#Brews
 tldr
 terraform
 telnet
@@ -7,3 +8,18 @@ helm
 ansible
 git
 kubectl
+
+#Casks
+zoom
+firefox
+google-chrome
+
+### Work
+#Brews
+argocd
+pre-commit
+
+#Casks
+aws-vault
+forticlient-vpn
+
