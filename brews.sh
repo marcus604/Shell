@@ -13,6 +13,7 @@ kubectl
 zoom
 firefox
 google-chrome
+iterm2
 
 ### Work
 #Brews
