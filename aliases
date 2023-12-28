@@ -17,4 +17,4 @@ git config --global alias.cm 'commit -m'
 git config --global alias.d 'diff'
 
 ### Docker ###
-alias dps='docker ps --format \"table {{.ID}}\t{{.Names}}\"'
+alias dps='docker ps --format '{{.Names}} - {{.RunningFor}} - {{.ID}}' | sort -f'
