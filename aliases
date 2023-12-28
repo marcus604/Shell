@@ -18,3 +18,4 @@ git config --global alias.d 'diff'
 
 ### Docker ###
 alias dps="docker ps --format '{{.Names}} - {{.RunningFor}} - {{.ID}}' | sort -f"
+alias dx="docker exec -it"
