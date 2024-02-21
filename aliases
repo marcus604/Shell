@@ -21,3 +21,6 @@ git config --global alias.ds 'diff --staged'
 alias dps="docker ps --format '{{.Names}} - {{.RunningFor}} - {{.ID}}' | sort -f"
 alias dx="docker exec -it"
 alias dils="docker image ls"
+
+### Directories ###
+alias cddev="cd ~/Documents/Dev/Github"
