@@ -15,6 +15,7 @@ alias mkdir='mkdir -pv'
 git config --global alias.st 'status'
 git config --global alias.cm 'commit -m'
 git config --global alias.d 'diff'
+git config --global alias.ds 'diff --staged'
 
 ### Docker ###
 alias dps="docker ps --format '{{.Names}} - {{.RunningFor}} - {{.ID}}' | sort -f"
