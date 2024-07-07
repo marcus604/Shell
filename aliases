@@ -19,6 +19,7 @@ git config --global user.name 'marcus604'
 git config --global user.email '2810211+marcus604@users.noreply.github.com'
 git config --global alias.st 'status'
 git config --global alias.cm 'commit -m'
+git config --global alias.ca 'commit --amend'
 git config --global alias.d 'diff'
 git config --global alias.ds 'diff --staged'
 
