@@ -30,4 +30,4 @@ alias dx="docker exec -it"
 alias dils="docker image ls"
 
 ### Directories ###
-alias cddev="cd ~/Documents/Dev/Github"
+alias cddev="cd ~/dev"
