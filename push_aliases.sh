@@ -13,3 +13,7 @@ git checkout -b "$branch_name"
 git commit -m "$commit_msg"
 
 git push origin
+
+git checkout main
+
+git reset --hard

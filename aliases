@@ -3,10 +3,12 @@ alias showProfile='cat ~/.zshrc'
 alias updateProfile='sudo vi ~/.zshrc; source ~/.zshrc'
 alias showAliases='cat ~/.aliases'
 alias updateAliases='sudo vi ~/.aliases; source ~/.zshrc'
-alias syncAliases='sudo curl -sL "https://raw.githubusercontent.com/marcus604/Shell/main/push_aliases.sh" > /usr/local/bin/push_aliases; sudo chmod +x /usr/local/bin/push_aliases.sh; sudo curl -sL "https://raw.githubusercontent.com/marcus604/Shell/main/aliases" > ~/.aliases; source ~/.zshrc'
-alias pushAliases='/usr/local/bin/push_aliases.sh'
+alias syncAliases='mkdir -p ~/bin; curl -sL "https://raw.githubusercontent.com/marcus604/Shell/main/push_aliases.sh" > ~/bin/push_aliases.sh; chmod +x ~/bin/push_aliases.sh; sudo curl -sL "https://raw.githubusercontent.com/marcus604/Shell/main/aliases" > ~/.aliases; source ~/.zshrc'
+alias pushAliases='~/bin/push_aliases.sh'
 
 ### ZSH ###
+path+=('~/bin')
+
 alias ls='ls -l'
 alias cp='cp -iv'
 alias mv='mv -iv'
