@@ -23,6 +23,7 @@ git config --global alias.ca 'commit --amend'
 git config --global alias.d 'diff'
 git config --global alias.ds 'diff --staged'
 git config --global alias.fpushwl "push --force-with-lease"
+git config --global core.excludesfile ~/.gitignore_global
 
 ### Docker ###
 alias dps="docker ps --format '{{.Names}} - {{.RunningFor}} - {{.ID}}' | sort -f"
