@@ -30,5 +30,7 @@ alias dps="docker ps --format '{{.Names}} - {{.RunningFor}} - {{.ID}}' | sort -f
 alias dx="docker exec -it"
 alias dils="docker image ls"
 
+### Ansible ###
+export ANSIBLE_CONFIG=~/.ansible/ansible.cfg
 ### Directories ###
 alias cddev="cd ~/dev"
