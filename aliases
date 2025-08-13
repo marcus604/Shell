@@ -34,7 +34,7 @@ alias dils="docker image ls"
 export ANSIBLE_CONFIG=~/.ansible/ansible.cfg
 
 ### Kubernetes ###
-export k="kubectl"
+alias k="kubectl"
 
 ### Directories ###
 alias cddev="cd ~/dev"
